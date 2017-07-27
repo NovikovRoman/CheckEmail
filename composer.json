@@ -1,0 +1,22 @@
+{
+    "name": "noroman/check-email",
+    "description": "Проверка email на существование",
+    "type": "library",
+    "created": 2017,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NovikovRoman",
+            "email": "service.for.roman@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload" : {
+            "psr-4": {
+                "CheckEmail\\": "src/"
+            }
+    }
+}
